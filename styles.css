@@ -128,11 +128,13 @@ body {
 .resume .resume_left .resume_skills ul li .skill_name {
   width: 25%;
 }
+.resume .resume_left .resume_skills ul li .skill_soft {
+}
 
 .resume .resume_left .resume_skills ul li .skill_progress {
-  width: 60%;
+  width: 70%;
   margin: 0 5px;
-  height: 5px;
+  height: 7px;
   background: #009fd9;
   position: relative;
 }
@@ -145,6 +147,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+
   height: 100%;
   background: black;
 }
@@ -182,6 +185,22 @@ body {
 
 .resume .resume_right ul li .info {
   margin-bottom: 20px;
+}
+/* .resume .resume_right img .info {
+  width: 50px;
+  height: 30px;
+} */
+.img {
+  width: 20%;
+  height: 10%;
+}
+span {
+  margin-left: 5px;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: #009fd9;
 }
 
 .resume .resume_right ul li:last-child .info {
